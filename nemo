@@ -1,0 +1,3 @@
+If you are publishing a local branch for the first time on a remote, the "-u" option is helpful. It makes sure that a tracking connection between the local and the newly created remote branch is established:
+After having set up such a tracking connection, you can perform future pushes without providing additional options - since the tracking connection provides default values for the push command:
+To delete a remote branch, simply use the "--delete" option and specify which branch (on which remote) you want to delete:
